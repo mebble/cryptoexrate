@@ -1,0 +1,15 @@
+{
+  "name": "cryptoexrate",
+  "version": "1.0.0",
+  "description": "API for crypto exchange rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "exchange"
+  ],
+  "author": "Neil Leeson Syiemlieh",
+  "license": "ISC"
+}
