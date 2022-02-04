@@ -4,6 +4,7 @@
   "description": "API for crypto exchange rates",
   "main": "index.js",
   "scripts": {
+    "build": "netlify build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,10 @@
     "exchange"
   ],
   "author": "Neil Leeson Syiemlieh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^0.11.0",
+    "@types/node": "^14.18.10",
+    "typescript": "^4.5.5"
+  }
 }
