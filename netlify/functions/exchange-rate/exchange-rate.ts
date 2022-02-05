@@ -43,6 +43,9 @@ export const handler: Handler = async (event, context) => {
 function buildResponse(statusCode: number, data: any): HandlerResponse {
   return {
     statusCode,
+    headers: {
+      'Content-Type': 'application/json'
+    },
     body: JSON.stringify({
       success: statusCode >= 200 && statusCode < 400,
       data,
