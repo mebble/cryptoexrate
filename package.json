@@ -2,9 +2,9 @@
   "name": "cryptoexrate",
   "version": "1.0.0",
   "description": "API for crypto exchange rates",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "build": "netlify build",
+    "dev": "netlify functions:serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

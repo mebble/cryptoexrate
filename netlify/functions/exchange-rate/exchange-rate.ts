@@ -56,7 +56,7 @@ export const handler: Handler = async (event, context) => {
         open: coin.openPrice,
         high: coin.highPrice,
         low: coin.lowPrice,
-        latest: coin.lastPrice,
+        last: coin.lastPrice,
         volume: coin.volume
       }
     }),

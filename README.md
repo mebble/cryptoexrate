@@ -21,5 +21,5 @@ Use [Netlify CLI](https://docs.netlify.com/cli/get-started/) for development in 
 Run functions locally in development mode:
 
 ```bash
-netlify functions:serve
+npm run dev
 ```
