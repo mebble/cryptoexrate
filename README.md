@@ -6,7 +6,7 @@
 
 | API  | Params | Example |
 | ---- | ------ | ------- |
-| `GET /.netlify/functions/exchange-rate` | `ticker` |  [/.netlify/functions/exchange-rate?ticker=ETH](https://cryptoexrate.netlify.app/.netlify/functions/exchange-rate?ticker=ETH)  |
+| `GET /.netlify/functions/exchange-rate` | `ticker` (default = 'BTC') |  [/.netlify/functions/exchange-rate?ticker=ETH](https://cryptoexrate.netlify.app/.netlify/functions/exchange-rate?ticker=ETH)  |
 
 ## Development
 
