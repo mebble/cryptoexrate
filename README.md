@@ -4,10 +4,22 @@
 
 ## Documentation
 
-| API  | Example |
-| ---- | ------- |
-| `GET /.netlify/functions/exchange-rate`  | [/.netlify/functions/exchange-rate](https://cryptoexrate.netlify.app/.netlify/functions/exchange-rate)  |
+| API  | Params | Example |
+| ---- | ------ | ------- |
+| `GET /.netlify/functions/exchange-rate` | `ticker` |  [/.netlify/functions/exchange-rate?ticker=ETH](https://cryptoexrate.netlify.app/.netlify/functions/exchange-rate?ticker=ETH)  |
 
 ## Development
 
+Set the environment variables in a `.env` file. Contents:
+
+```
+CRYPTO_HOST=https://example.com
+```
+
 Use [Netlify CLI](https://docs.netlify.com/cli/get-started/) for development in your local machine.
+
+Run functions locally in development mode:
+
+```bash
+netlify functions:serve
+```
